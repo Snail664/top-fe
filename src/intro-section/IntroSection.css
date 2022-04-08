@@ -1,0 +1,15 @@
+.sect1 {
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  font-size: 8em;
+  color: #000000;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

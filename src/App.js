@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import IntroSection from "./intro-section";
+import MainSection from "./main-section";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <IntroSection />
+      <div
+        style={{ backgroundColor: "black", height: "500px", width: "100%" }}
+      ></div>
+      <MainSection />
     </div>
   );
 }
